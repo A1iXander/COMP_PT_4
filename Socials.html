@@ -1,0 +1,133 @@
+<head>
+<title>PT COMP</title>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+.header {
+  padding: 80px;
+  text-align: center;
+  background: #4a6459;
+  color: white;
+}
+
+.header h1 {
+  font-size: 40px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+
+.navbar a.right {
+  float: right;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.side {
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+.main {   
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+.img {
+   border-radius: 50%; 
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #333;
+  color: white;
+}
+
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width:100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Ali Xander Paclibar</h1>
+  <p>A website about me.</p>
+</div>
+
+<div class="navbar">
+  <a href="index.html">HOME</a>
+  <a href="Socials.html">SOCIALS</a>
+   <a href="goals.html">GOALS</a>
+  <a href="Figurine.html" class="right">FIGURINES</a>
+  <a href="Anime.html" class="right">ANIME</a>
+  <a href="manga.html" class="right">MANGA/MANHUA</a>
+</div>
+
+<div class="row">
+  <div class="side">
+    <h2><center>About Me<center></h2>
+    <div class="img"><center><img src="pics/facereveal.png" class=row width=300 height=300></center></div>
+    <center><p><b>Im a chill and kind person who likes to collect figurines and watch anime on their free time.</b></p></center>
+    <center><font size="+2"><b><p>INFORMATION<p></center></b></font>
+    <ul class="a">
+    <li><b>August 19 2006</b></li>
+    <li><b>15yrs old</b></li>
+    <li><b>Male</b></li>
+    </ul>
+  </div>
+  
+  <div class="main">
+  <center><h2>You can find me in</h2></center>
+  <div class="img"><center><a href="https://twitter.com/pak1ibar"><img src="pics/Twitter.png" class=main width=150 height=120></a></center></div>
+  <div class="img"><center><a href="https://www.youtube.com/channel/UC9cwVdJSz-LU-Ec58q95ECg"><img src="pics/Youtube.jpg" class=main width 250 height=200></a></center></div>
+  <div class="img"><center><a href="https://www.facebook.com/alixander.paclibar"><img src="pics/facebook.png" class=main width 250 height=150></a></center></div>
+  
+  </div>
+</div>
+<div class="footer">
+<h2>Sponsored By Github</h2>
+</div>
+
+</body>
+</html>
